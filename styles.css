@@ -48,7 +48,7 @@ li {
 h2 {
     font-size: 60px;
 }
-p{
+.para {
     font-size: 42px;;
 }
 .intro { 
@@ -62,4 +62,29 @@ padding: 30px 30px 50px 0px;
     padding: 15px 32px;
     font-size: 24px;
     margin: 20px;
+}
+.first {
+    padding: 14px 240px;
+}
+#second-intro {
+    font-size: 32px;
+    text-align: center;
+}
+.imgroup {
+    display: flex;
+    flex: 1;
+   
+    justify-content: space-evenly;
+    
+}
+.icons {
+    border:2px solid #3882f6;
+    padding: 14px 24px; 
+}
+.para1 {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    position: inherit;
 }
