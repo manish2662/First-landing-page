@@ -73,18 +73,42 @@ padding: 30px 30px 50px 0px;
 .imgroup {
     display: flex;
     flex: 1;
-   
     justify-content: space-evenly;
-    
-}
-.icons {
-    border:2px solid #3882f6;
-    padding: 14px 24px; 
-}
-.para1 {
-    display: flex;
-    flex: 1;
     text-align: center;
     font-size: 30px;
-    position: inherit;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.icons {
+    border:5px solid #3882f6;
+    padding: 14px 24px; 
+    border-radius: 8px;
+}
+.second {
+    background-color: #e5e7eb;
+    padding: 90px 280px;
+}
+.inspquote {
+    font-size: 36px;
+}
+.cta {
+    background-color: #3882f6;
+    margin: 5%;
+    padding: 100px 650px;
+}
+.quote-by{
+    float:right;
+    font-size:28px;
+}
+.button-wrapper {
+    display: block;
+    text-align: center;
+    border: 2px;
+    border-radius: 2em;
+    border-color:#e5e7eb;
+    background-color: #3882f6;
+}
+.button-text {
+    color:white;
+    font-size: 22px;
 }
